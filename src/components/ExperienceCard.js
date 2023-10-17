@@ -3,7 +3,7 @@ import React from "react";
 const ExperienceCard = () => {
   return (
     <div className="h-fit w-fit max-w-[450px]  border-2 rounded-md  bg-[#111117] border-[#0c0c10] border-[1px] flex flex-col justify-around items-left p-3 my-4 relative overflow-hidden hover:border-[#fff] hover:scale-[1.02]">
-      <h1 className="text-[1.2rem] text-[#fff]">Frontend Developer</h1>
+      <h1 className="text-[1.2rem] text-[#fff]">Full Stack Developer</h1>
       <p className="text-[0.8rem] text-left text-[#fff]">Cognizant</p>
       <p className="text-[0.8rem] text-left text-[#fff]">
         From: 03/2021 -- Present
@@ -16,7 +16,7 @@ const ExperienceCard = () => {
         responsive landing pages, utilizing various React components to enhance
         the user interface and functionality of the website, collaborating with
         a team of eight members following the agile methodology and documenting
-        progress and challenges.
+        progress and challenges, and backed with Spring Boot.
       </p>
       <div className="h-[10vh] w-[10vh]  flex justify-center items-center  top-[-10%] right-[-25px] z-10 absolute">
         <div className="h-[18vh] w-[18vh] rounded-[50%] bg-[#ffffff00] border-[1px] border-[#ffffff30] absolute  opacity-[1]"></div>
