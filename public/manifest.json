@@ -1,0 +1,26 @@
+{
+  "short_name": "Manohar's Portfolio",
+  "name": "Guggilla Venkata Manohar Protfolio | Frontend Developer",
+  "description": "Guggilla Venkata Manohar Frontend Developer Portfolio website | React.js | Javascript | Tailwind CSS | Redux | HTML | CSS | Bootstrap | JAVA",
+  "icons": [
+    {
+      "src": "Icon-98@2x.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "ic_launcher_foreground.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "playstore-icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff"
+}

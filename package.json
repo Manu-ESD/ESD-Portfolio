@@ -1,0 +1,63 @@
+{
+  "name": "portfoliov1",
+  "version": "0.1.0",
+  "description": "Guggilla Venkata Manohar Frontend Developer Portfolio website | React.js | Javascript | Tailwind CSS | Redux | HTML | CSS | Bootstrap | JAVA",
+  "private": true,
+  "author": "Guggilla Venkata Manohar",
+  "keywords": [
+    "Guggilla Venkata Manohar",
+    "Venkata Manohar",
+    "Manohar",
+    "Manohar's Portfolio",
+    "Manohar Portfolio",
+    "Frontend Developer",
+    "React Js",
+    "Javascript",
+    "Portfolio Website"
+],
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "framer-motion": "^10.16.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-ga": "^3.3.1",
+    "react-icons": "^4.10.1",
+    "react-router-dom": "^6.15.0",
+    "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.9",
+    "react-tsparticles": "^2.12.2",
+    "react-type-animation": "^3.1.0",
+    "styled-components": "^6.0.8",
+    "tsparticles": "^2.12.0",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}

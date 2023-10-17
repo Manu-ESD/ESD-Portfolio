@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Courgette&family=Inter:wght@400;500&family=Manrope&family=Righteous&family=Roboto&family=Sofia&display=swap");
+
+body {
+  background-color: #252734ec;
+}
+
+@font-face {
+  font-family: "MainFont";
+  src: url("../src/Utility/Others/DupincelLargeTest-SemiBold.otf")
+    format("opentype");
+}
+.skillcard .CCircles {
+  transition-duration: 400ms;
+}
+
+.skillcard:hover .CCircles {
+  transform: scale(4);
+  animation-timing-function: ease-in-out;
+}
+
+/* Projects */
+
+.main:hover .Bclick {
+  display: block;
+  transition-duration: 1s;
+}
+
+.viewbut:hover .arrow {
+  transform: translateX(5px);
+}
+
+.main:hover .webimg {
+  transform: scale(1.1);
+}
+
+.main:hover {
+  transform: scale(1.03);
+}
+
+/* Navbar */
+
+.list .transmoveicon {
+  transform: translateY(-20px);
+  scale: 1.5;
+}
+
+.iconback::before {
+  content: "";
+  position: absolute;
+  top: 46%;
+  left: -20px;
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  border-top-right-radius: 20px;
+  box-shadow: 0px -10px 0 0 #25273400;
+  z-index: 100;
+}
+
+.iconback::after {
+  content: "";
+  position: absolute;
+  top: 46%;
+  right: -20px;
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  border-top-left-radius: 20px;
+  box-shadow: 0px -10px 0 0 #25273400;
+  z-index: 100;
+}
+
+.list .transmovetext {
+  transform: translateY(-8px);
+  opacity: 1;
+}
+
+/* Home */
+
+/* #circle1 {
+  animation: rotateSmall 5s linear infinite, stopRotate 5s linear 5s forwards;
+}
+#circle2 {
+  animation: rotateSmall 5s linear infinite, stopRotate 5s linear 5s forwards 1s;
+}
+#circle3 {
+  animation: rotateSmall 5s linear infinite, stopRotate 5s linear 5s forwards 2s;
+} */
+
+#bigCircle {
+  animation: rotate 3s linear 1;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(120deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(360deg);
+    opacity: 1;
+  }
+}
+
+@keyframes rotateSmall {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(90px);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) translateX(90px);
+  }
+}
+
+@keyframes stopRotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(90px);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) translateX(90px);
+  }
+}

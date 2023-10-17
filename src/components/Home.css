@@ -1,0 +1,41 @@
+/* #circle1 {
+  animation: rotateSmall 5s linear infinite, stopRotate 5s linear 5s forwards;
+}
+#circle2 {
+  animation: rotateSmall 5s linear infinite, stopRotate 5s linear 5s forwards 1s;
+}
+#circle3 {
+  animation: rotateSmall 5s linear infinite, stopRotate 5s linear 5s forwards 2s;
+} */
+
+#bigCircle {
+  animation: rotate 3s linear 1;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(120deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(360deg);
+    opacity: 1;
+  }
+}
+
+@keyframes rotateSmall {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(90px);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) translateX(90px);
+  }
+}
+
+@keyframes stopRotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(90px);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) translateX(90px);
+  }
+}
